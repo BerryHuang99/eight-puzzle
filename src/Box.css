@@ -1,0 +1,17 @@
+.Box {
+    margin: 1rem 1rem 2rem;
+}
+.box-item {
+    display: inline-block;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 3rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: #f39800;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+}
+.box-item-0 {
+    background-color: #eb6100;
+}

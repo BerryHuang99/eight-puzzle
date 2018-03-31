@@ -1,0 +1,60 @@
+* {
+  border: none;
+  margin: none;
+  padding: none;
+}
+header {
+  overflow: hidden;
+  border-bottom: #f39800 solid 0.1rem;
+}
+.clearfix {
+  clear: both;
+}
+.logo {
+  width: 4rem;
+  margin: 0.5rem;
+  float: left;
+}
+h1 {
+  float: left;
+  line-height: 3rem;  
+  color: #eb6100;
+}
+.input-num {
+  margin: 0.5rem auto;
+  text-align: center;
+}
+.alarm {
+  font-size: 0.1rem;
+  color: #eb6100;
+  font-style: italic;
+}
+button {
+  -webkit-appearance: none;
+  padding: 0.5rem;
+  background-color: #f39800;
+  border-radius: 0.3rem;
+  color: #fff;
+  outline: none;
+}
+button:active {
+  background-color: #eb6100;
+}
+.number {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 4rem;
+  border: 0.01rem #ccc solid;
+}
+.number:focus {
+  outline: none;
+  border: 0.01rem #f39800 solid;
+}
+.box {
+  margin: 1rem auto;
+  text-align: center;
+  overflow: hidden;
+}
+.disappear {
+  display: none;
+}
